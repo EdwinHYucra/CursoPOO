@@ -32,5 +32,19 @@ public class Recepcionista extends Usuario {
     public void mostrarInfo() {
         System.out.println("Recepcionista: " + nombre + " " + apellido);
     }
+
+    @Override
+    public void verificarCredenciales() {
+        throw new UnsupportedOperationException("Not supported yet."); 
+    }
+
+    @Override
+    public void bloquearUsuario() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+    @Override
+    public void cerrarSesion() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
 }
 

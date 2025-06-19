@@ -46,5 +46,20 @@ public class Docente extends Usuario implements IServicioPrestamos {
     public void mostrarInfo() {
         System.out.println("Docente: " + nombre + " " + apellido + ", Especialidad: " + especialidad);
     }
+
+    @Override
+    public void verificarCredenciales() {
+        throw new UnsupportedOperationException("Not supported yet."); 
+    }
+
+    @Override
+    public void bloquearUsuario() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    @Override
+    public void cerrarSesion() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
 }
     

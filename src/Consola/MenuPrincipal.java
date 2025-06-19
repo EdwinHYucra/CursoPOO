@@ -80,16 +80,16 @@ public class MenuPrincipal {
 
             switch (opcion) {
                 case 1:
-                    System.out.println("🔍 Buscando libro...");
+                    System.out.println("Buscando libro...");
                     break;
                 case 2:
-                    System.out.println("📚 Viendo préstamos...");
+                    System.out.println("Viendo préstamos...");
                     break;
                 case 3:
-                    System.out.println("📝 Solicitar préstamo...");
+                    System.out.println("Solicitar préstamo...");
                     break;
                 case 4:
-                    System.out.println("📦 Devolviendo libro...");
+                    System.out.println("Devolviendo libro...");
                     break;
                 case 5:
                     usuario.cerrarSesion();
@@ -114,16 +114,16 @@ public class MenuPrincipal {
 
             switch (opcion) {
                 case 1:
-                    System.out.println("📄 Registrar préstamo...");
+                    System.out.println("Registrar préstamo...");
                     break;
                 case 2:
-                    System.out.println("📦 Registrar devolución...");
+                    System.out.println("Registrar devolución...");
                     break;
                 case 3:
-                    System.out.println("🔍 Consultar disponibilidad...");
+                    System.out.println("Consultar disponibilidad...");
                     break;
                 case 4:
-                    System.out.println("👤 Buscar usuario...");
+                    System.out.println("Buscar usuario...");
                     break;
                 case 5:
                     usuario.cerrarSesion();
@@ -149,19 +149,19 @@ public class MenuPrincipal {
 
             switch (opcion) {
                 case 1:
-                    System.out.println("📗 Registrar libro...");
+                    System.out.println("Registrar libro...");
                     break;
                 case 2:
-                    System.out.println("🧑 Registrar usuario...");
+                    System.out.println("Registrar usuario...");
                     break;
                 case 3:
-                    System.out.println("✏️ Editar libro...");
+                    System.out.println("Editar libro...");
                     break;
                 case 4:
-                    System.out.println("🗑 Eliminar datos...");
+                    System.out.println("Eliminar datos...");
                     break;
                 case 5:
-                    System.out.println("📊 Ver reportes...");
+                    System.out.println("Ver reportes...");
                     break;
                 case 6:
                     usuario.cerrarSesion();

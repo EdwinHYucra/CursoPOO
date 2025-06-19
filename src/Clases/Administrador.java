@@ -57,4 +57,19 @@ public class Administrador extends Usuario implements IServiciosRecursos {
     public void mostrarInfo() {
         System.out.println("Administrador: " + nombre + " " + apellido);
     }
+
+    @Override
+    public void verificarCredenciales() {
+        throw new UnsupportedOperationException("Not supported yet."); 
+    }
+
+    @Override
+    public void bloquearUsuario() {
+        throw new UnsupportedOperationException("Not supported yet."); 
+    }
+
+    @Override
+    public void cerrarSesion() {
+        throw new UnsupportedOperationException("Not supported yet."); 
+    }
 }
