@@ -13,6 +13,12 @@ import Interfaces.IServicioPrestamos;
 public class Docente extends Usuario implements IServicioPrestamos {
     private String especialidad;
 
+     public Docente(String id_codigo, String contraseña, String nombre) {
+        this.id_codigo = id_codigo;
+        this.contraseña = contraseña;
+        this.nombre = nombre;
+        this.tipoDeUser = "Docente";
+    }
     public Docente(String id_codigo, String contraseña, String nombre, String apellido, String especialidad) {
         this.id_codigo = id_codigo;
         this.contraseña = contraseña;

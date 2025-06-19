@@ -7,6 +7,21 @@ import Interfaces.IServiciosRecursos;
  * @author Dayanna
  */
 public class Administrador extends Usuario implements IServiciosRecursos {
+    
+    public Administrador(String id_codigo, String contraseña) {
+        this.id_codigo = id_codigo;
+        this.contraseña = contraseña;
+        this.tipoDeUser = "Administrador";
+    }
+
+    public Administrador(String id_codigo, String contraseña, String nombre) {
+        this.id_codigo = id_codigo;
+        this.contraseña = contraseña;
+        this.nombre = nombre;
+
+        this.tipoDeUser = "Administrador";
+    }
+
     public Administrador(String id_codigo, String contraseña, String nombre, String apellido) {
         this.id_codigo = id_codigo;
         this.contraseña = contraseña;
